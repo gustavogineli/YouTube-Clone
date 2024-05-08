@@ -1,0 +1,49 @@
+footer {
+  text-align: center;
+  padding: 20px 0;
+}
+ 
+
+footer p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: gray;
+}
+
+.create {
+  margin-bottom: 0px;
+  margin-top: 30px;
+  font-size: 15px;
+  color: black;
+}
+.create-2 {
+  font-size: 15px;
+  color: black;
+}
+
+footer img  {
+width: 25px;
+}
+
+  .fa {
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0 13px;
+  transition: transform 0.15s ease;
+ }
+
+footer img:hover {
+  background-color: rgba(255, 0, 0, 0.728);
+  border-radius: 10px;
+  transform: scale(1.5);
+}
+
+
+@media screen and (max-width: 700px) {
+  .footer-intro p {
+      font-size: 14px;
+      text-align: center;
+      margin-right: 25px;
+      margin-left: 25px;
+  }
+}
