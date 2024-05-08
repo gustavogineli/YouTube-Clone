@@ -49,11 +49,11 @@
       display: none;
   }
 
-  .channel-me-icon {
+  .current-user-picture {
       margin-left: 0;
   }
 
-  .right-section-buttons {
+  .notifications-ico, .youtube-apps-icon, .upload-icon {
       pointer-events: none;
   }
   .video-author {
